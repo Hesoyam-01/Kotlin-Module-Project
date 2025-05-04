@@ -15,7 +15,7 @@ class ArchiveScreen {
 
     fun start() {
         while (true) {
-            println("1 - Выбрать архив, 2 - Создать архив, 3 - Завершить программу")
+            println("1 - Выбрать архив\n2 - Создать архив\n3 - Завершить программу")
 
             val input: String = Scanner(System.`in`).nextLine()
             when (input) {

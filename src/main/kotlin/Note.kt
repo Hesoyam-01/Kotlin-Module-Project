@@ -16,7 +16,7 @@ class NoteScreen {
 
     fun start(choose: Archive) {
         while (true) {
-            println("1 - Выбрать заметку, 2 - Создать заметку, 3 - Вернуться к архивам")
+            println("1 - Выбрать заметку\n2 - Создать заметку\n3 - Вернуться к архивам")
 
             val input: String = Scanner(System.`in`).nextLine()
             when (input) {
